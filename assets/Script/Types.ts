@@ -1,14 +1,6 @@
-import { _decorator, Component, Node } from 'cc';
-const { ccclass, property } = _decorator;
-
-@ccclass('Types')
-export class Types extends Component {
-    start() {
-
-    }
-
-    update(deltaTime: number) {
-        
-    }
-}
-
+/**
+ *公共环境type文件
+ *或有的type都用Type结尾
+ */
+declare type GameType = Array<Array<number>>
+declare type FunctionType = (...arg: any) => void

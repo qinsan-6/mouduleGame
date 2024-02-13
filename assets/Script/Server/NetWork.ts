@@ -1,14 +1,5 @@
-import { _decorator, Component, Node } from 'cc';
-const { ccclass, property } = _decorator;
+/**
+ * 服务器接口文件
+ */
 
-@ccclass('NetWork')
-export class NetWork extends Component {
-    start() {
 
-    }
-
-    update(deltaTime: number) {
-        
-    }
-}
-
